@@ -1,5 +1,7 @@
 # Classificação de Flores com Transfer Learning
 
+##### Gabriel A. O. Schlagenhaufer, Guilherme Ferraz, Igor T. Gutierrez, Kevin H. A. Guimarães, Patrick L. Froes
+
 Projeto de visão computacional em duas fases:
 
 1. **Fase 1 — Classificação Oxford Flowers-102**: treina e avalia três arquiteturas no dataset Oxford 102 Category Flower.
