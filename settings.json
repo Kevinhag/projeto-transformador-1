@@ -1,0 +1,25 @@
+{
+    "config": {
+        "data_dir": "./data",
+        "output_dir": "./results",
+        "num_classes": 102,
+        "batch_size": 8,
+        "num_epochs": 50,
+        "lr": 1e-4,
+        "weight_decay": 1e-4,
+        "num_workers": 4,
+        "img_size": 224,
+        "warmup_epochs": 5,
+        "seed": 42
+    },
+    "models": {
+        "MobileNetV3-Large": "mobilenetv3_large_100",
+        "EfficientViT-M4": "efficientvit_m4",
+        "Swin-Tiny": "swin_tiny_patch4_window7_224"
+    },
+    "ood": {
+        "dataset_dir": "./data/dataset2",
+        "threshold": 0.5,
+        "bbox_expand": 0.1
+    }
+}

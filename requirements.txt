@@ -1,0 +1,22 @@
+# ============================================================
+# Dependências do projeto (ml.py, transfer.py, plot.py)
+# Instale com:  pip install -r requirements.txt
+# ============================================================
+
+# --- GPU (RTX 5070 = Blackwell) -----------------------------------
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# --- Modelos pré-treinados ----------------------------------------
+timm
+
+# --- Dados / numérico ---------------------------------------------
+numpy
+scipy          # necessário p/ o Flowers102 ler os .mat (ml.py)
+pillow         # PIL — abertura/recorte das imagens (transfer.py)
+
+# --- Logs e gráficos ----------------------------------------------
+rich           # barras de progresso e prints coloridos
+matplotlib     # geração das figuras (plot.py)
+
+# --- Download automático do dataset COCO (transfer.py) ------------
+roboflow
